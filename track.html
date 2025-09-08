@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GYMGOALS</title>
+  <link rel="stylesheet" type="text/css" href="track.css">
+</head>
+<body>
+  <h1>Personal Fitness Tracker</h1>
+  <form id="fitnessForm" class="form">
+    <label>
+      Steps Taken
+      <input type="number" id="steps" required>
+    </label>
+    <label>
+      Calories Burned
+      <input type="number" id="calories" required>
+    </label>
+    <label>
+      Hours Slept
+      <input type="number" id="sleep" required>
+    </label>
+    <button type="submit">Submit</button>
+  </form>
+
+  <h2 id='analysis'></h2>
+
+  <div id="progressChart"></div>
+
+  <script src="track.js"></script>
+</body>
+</html>
